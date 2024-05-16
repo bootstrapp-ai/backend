@@ -1,0 +1,16 @@
+{
+  "name": "@brazuka/backend",
+  "type": "module",
+  "version": "0.1.0",
+  "main": "./index.js",
+  "module": "./index.js",
+    "scripts": {
+    "build": "node esbuild.config.js",
+    "dev": "node esbuild.config.js --watch"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.3"
+  },
+  "dependencies": {
+  }
+}
